@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+scrapy
+beautifulsoup4
+sentence-transformers
+faiss-cpu
+langchain
+llama-cpp-python
+streamlit
