@@ -26,20 +26,18 @@ pip install -r requirements.txt
 
 # Démarrer le backend
 cd backend
-uvicorn main:app --host 127.0.0.1 --port 8000
+uvicorn main:app --host 127.0.0.1 --port 8080
+ou 
+cd \HACKATHON_2025\backend
+python main.py
+
+Accéder à la documentation interactive :
+   - Swagger UI : [http://127.0.0.1:8080/docs](http://127.0.0.1:8080/docs)
+   - Redoc : [http://127.0.0.1:8080/redoc](http://127.0.0.1:8080/redoc)
 
 # Démarrer le frontend
 cd ../frontend
 streamlit run app.py
-
-## Utilisation
-1. Lancer le serveur FastAPI :
-   ```bash
-   uvicorn main:app --host 127.0.0.1 --port 8080 --reload
-   ```
-2. Accéder à la documentation interactive :
-   - Swagger UI : [http://127.0.0.1:8080/docs](http://127.0.0.1:8080/docs)
-   - Redoc : [http://127.0.0.1:8080/redoc](http://127.0.0.1:8080/redoc)
 
 ## Exemples d'utilisation
 Requête GET avec un paramètre `query` :
